@@ -68,7 +68,7 @@ namespace RatePI.Models
                     Debug.WriteLine("Recuperado: " + res.GetInt32(0) + " " + res.GetInt32(1) + " " + res.GetString(2) + " " + res.GetString(3) + " " + res.GetString(4));
                     a = new Proyectos(res.GetInt32(0), res.GetInt32(1), res.GetString(2), res.GetString(3), res.GetString(4));
                     proyectos.Add(a);
-                    proyectos.Add("Zanahoria");
+                    
                 }
 
                 con.Close();
